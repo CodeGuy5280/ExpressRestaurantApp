@@ -10,36 +10,7 @@
     <title>Make a Reservation</title>
 </head>
 
-<body>
-    div
-    <div class="text-center">
-        <a href="/tables.html"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> View Tables</button></a>
-        <a href="index.html"><button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-home"></span></button></a>
-    </div>
-    <button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-home"></span></button>
-    <form>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputName4">Name</label>
-            <input type="name" class="form-control" id="inputName4">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="inputPhone4">Phone</label>
-            <input type="phone" class="form-control" id="inputPhone4">
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="inputEmail">Email</label>
-          <input type="text" class="form-control" id="inputEmail" placeholder="email@email.com">
-        </div>
-        <div class="form-group">
-          <label for="inputAddress2">ID Number</label>
-          <input type="text" class="form-control" id="inputID2">
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    
-</body>
+
 </html><!-- needs a user input form that will gather information -->
 <!-- needs a user input form that will gather information -->
 <!DOCTYPE html>
@@ -56,6 +27,43 @@
 
 
 <!--Jumbotron w/ Buttons & Icons-->
+<body>
+    <div class="container">
+    <div class="jumbotron">
+    <h1 class="text-center"><span class="glyphicon glyphicon-fire"></span> Hot Restaurant</h1>
+    <hr>
+    <h2 class="text-center">Make your reservation</h2>
+    <br>
+
+    <div class="text-center">
+        <a href="/tables.html"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> View Tables</button></a>
+        <a href="/"><button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-home"></span></button></a>
+    </div>
+    </div>
+
+    <!--Form-->
+    <form>
+        <div class="form-group">
+      <div class="form-group col-md-8">
+        <label for="inputName">Name</label>
+        <input type="name" class="form-control" id="inputName" placeholder="Jon Smith">
+      </div>
+      <div class="form-group col-md-8">
+        <label for="inputPhone">Phone</label>
+        <input type="phone" class="form-control" id="inputPhone" placeholder="303)111-1111">
+      </div>
+        </div>
+        <div class="form-group col-md-8">
+      <label for="inputEmail">Email</label>
+      <input type="text" class="form-control" id="inputEmail" placeholder="email@email.com">
+        </div>
+        <div class="form-group col-md-8">
+      <label for="inputID">ID Number</label>
+      <input type="text" class="form-control" id="inputID" placeholder="9999">
+        </div>
+        <button type="submit" class="btn btn-primary submit">Submit</button>
+    </form>
+    </div>
 
 <!--Footer containing javascript-->
     <footer class ="footer">
