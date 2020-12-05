@@ -33,6 +33,27 @@ const tables = [
     }
 ]
 
+class waitList{
+    constructor(name,id,number){
+        this.name = name;
+        this.id = id;
+        this.number = number;
+    }
+
+    getName(){
+        return this.name;
+    }
+    getId(){
+        return this.id;
+    }
+    getNumber(){
+        return this.number;
+    }
+    getRole(){
+        return "tables"
+    }
+}
+
 // Basic route that sends the user first to the AJAX Page- which is empty for now
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html')));
 
